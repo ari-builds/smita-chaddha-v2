@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /index.html
+Allow: /about.html
+Allow: /approach.html
+Allow: /group.html
+Allow: /faq.html
+Allow: /contact.html
+Allow: /verify.html
+
+# AI crawlers
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Bard
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://ari-builds.github.io/smita-chaddha-v2/sitemap.xml
